@@ -1,6 +1,10 @@
 const Logo = () => (
-	<div>
-		<img></img>
+	<div className='logo'>
+		<img
+			alt='Courses'
+			src='https://cdn-icons-png.flaticon.com/512/4762/4762311.png'
+			style={{ width: '50px', height: '50px' }}
+		></img>
 	</div>
 );
 
