@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 0.8px red solid;
+    border-radius: 8px;
+
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info h2{
+    margin-right: 85px;
+    font-weight: normal;
+    font-size: 17px;
+}
