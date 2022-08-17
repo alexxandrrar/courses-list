@@ -7,7 +7,10 @@ const Input = ({ ...props }) => {
     <input
       type="text"
       className={s.input}
+      value={props.value}
       style={checkInputSize(props.size)}
+      placeholder={props.placeholder}
+      onChange={props.onChange}
     ></input>
   );
 };
