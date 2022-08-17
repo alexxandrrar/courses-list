@@ -1,9 +1,9 @@
-export const checkButtonSize = (size) => {
+export const checkInputSize = (size) => {
   switch (size) {
     case "large":
       return {
         padding: "10px 35px",
-        fontSize: "20px",
+        fontSize: "15px",
       };
     case "medium":
       return {

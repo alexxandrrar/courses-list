@@ -6,7 +6,7 @@ import s from "./Search.module.css";
 const Search = () => {
   return (
     <div className={s.search}>
-      <Input />
+      <Input size="medium" />
       <Button size="medium" text="Search" />
     </div>
   );

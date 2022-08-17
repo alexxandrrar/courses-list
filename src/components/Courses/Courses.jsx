@@ -1,5 +1,4 @@
 import CourseCard from "../CourseCard/CourseCard";
-//import { mockedAuthorsList } from '../../constants/data';
 import { mockedCoursesList } from "../../constants/data";
 import React, { useState } from "react";
 
