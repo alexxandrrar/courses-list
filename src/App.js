@@ -1,5 +1,7 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Courses from "./components/Courses/Courses";
+import CreateCourse from "./components/CreateCourse/CreateCourse";
 
 import Header from "./components/Header/Header";
 
@@ -8,7 +10,10 @@ function App() {
     <div className="App">
       <Header />
       <main>
-        <Courses />
+        <Routes>
+          <Route exact path="/" element={<Courses />} />
+          <Route exact path="/create-course" element={<CreateCourse />} />
+        </Routes>
       </main>
     </div>
   );
