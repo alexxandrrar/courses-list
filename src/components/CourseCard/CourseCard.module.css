@@ -1,0 +1,23 @@
+.courseCard {
+  border: 0.8px solid rgb(131, 192, 40);
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 15px 25px;
+  padding: 15px;
+  display: flex;
+}
+
+.description {
+  margin: 2em 0;
+  max-width: 900px;
+}
+.info {
+  word-wrap: break-word;
+  font-size: medium;
+  width: 400px;
+  margin: 2em 0 1em 9em;
+}
+.btn {
+  margin-top: 30px;
+  margin-left: 50%;
+}
