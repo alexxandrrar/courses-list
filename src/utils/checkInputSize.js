@@ -2,7 +2,8 @@ export const checkInputSize = (size) => {
   switch (size) {
     case "large":
       return {
-        padding: "10px 25px",
+        width: "400px",
+        height: "150px",
         fontSize: "15px",
       };
     case "medium":

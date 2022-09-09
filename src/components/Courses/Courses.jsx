@@ -38,7 +38,7 @@ const Courses = () => {
         <Button
           onClick={() => navigate("/create-course")}
           size="medium"
-          text="Add new post"
+          text="Add new course"
         />
       </div>
       <div>

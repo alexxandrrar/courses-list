@@ -1,0 +1,28 @@
+.upperblock {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main {
+  display: block;
+}
+
+.input {
+  margin: 2em;
+}
+
+label {
+  margin-top: 2em;
+  display: block;
+}
+.button {
+  display: block;
+  max-width: 150px;
+  max-height: 50px;
+  margin-right: 5px;
+}
+
+.downblock {
+  border: solid rgb(98, 25, 98) 0.8px;
+  padding: 2em 4em;
+}
